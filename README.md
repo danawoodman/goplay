@@ -12,7 +12,7 @@ brew install go
 
 ... and you're ready!
 
-If you don't have Homebrew, you can install [go in many other ways](http://golang.org/doc/install).
+If you don't have [Homebrew](http://brew.sh/), you can install [go in many other ways](http://golang.org/doc/install).
 
 ## Running Examples
 
@@ -25,6 +25,11 @@ go build
 ```
 
 All the examples have a README file explaining what they do and how to run them.
+
+## Go Resources
+
+* [GOOD - Go Object Oriented Design](http://nathany.com/good/)
+* [Great Golang intro focused on OO design in Go](http://areyoufuckingcoding.me/2012/07/25/object-desoriented-language/)
 
 ## Credits
 
