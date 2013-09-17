@@ -2,6 +2,15 @@
 
 A set of [Golang](http://golang.org) examples, starting at the most basic "Hello World" example.
 
+## Examples
+
+- Hello World
+- RESTful API
+- Writing to a file
+- Getting data from an API
+- Daemon
+- Accessing a database
+
 ## Install Go
 
 If you're on a Mac and you use [Homebrew]() you can install go by running:
