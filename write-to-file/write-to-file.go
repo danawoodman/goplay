@@ -22,9 +22,9 @@ func main() {
   if error != nil { panic(error) }
   // close output_file on exit and check for its returned error
   defer func() {
-      if error := output_file.Close(); error != nil {
-          panic(error)
-      }
+    if error := output_file.Close(); error != nil {
+      panic(error)
+    }
   }()
 
   // make a buffer to keep chunks that are read
