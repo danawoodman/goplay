@@ -42,7 +42,7 @@ type Woman struct {
   *Person
 }
 
-// The attaches a method `ProperName` onto the `Woman` struct, but does not 
+// This attaches a method `ProperName` onto the `Woman` struct, but does not 
 // override the method in the `Person` struct. Instead, you have access to 
 // the original `Person` struct and can call it's properties and methods.
 func (w *Woman) ProperName() string {
