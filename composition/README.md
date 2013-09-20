@@ -54,7 +54,7 @@ Now, if you create a new instance of the `Woman` struct, you can access it's com
 
 ```go
 jane := &Woman { Person: &Person { Name: "Jane Smith" } }
-jane.ProperName()) // => "Mrs. Jane Smith"
+jane.ProperName() // => "Mrs. Jane Smith"
 jane.Person.ProperName() // => "Jane Smith"
 jane.Species() // => "Homo sapien"
 jane.Person.Species() // => "Homo sapien"
