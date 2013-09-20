@@ -20,3 +20,11 @@ _cgo_export.*
 _testmain.go
 
 *.exe
+
+# Ignore example binaries and other cruft
+/composition/composition
+/helloworld/helloworld
+/image-processing/image-processing
+/simple-server/simple-server
+/write-to-file/write-to-file
+/write-to-file/output.txt
