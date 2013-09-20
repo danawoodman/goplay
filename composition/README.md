@@ -54,10 +54,10 @@ Now, if you create a new instance of the `Woman` struct, you can access it's com
 
 ```go
 jane := &Woman { Person: &Person { Name: "Jane Smith" } }
-jane.ProperName() // => "Mrs. Jane Smith"
-jane.Person.ProperName() // => "Jane Smith"
-jane.Species() // => "Homo sapien"
-jane.Person.Species() // => "Homo sapien"
+jane.ProperName()           // => "Mrs. Jane Smith"
+jane.Person.ProperName()    // => "Jane Smith"
+jane.Species()              // => "Homo sapien"
+jane.Person.Species()       // => "Homo sapien"
 ```
 
 What this shows is that when composing structs, you still have complete access to the embedded struct, while also getting shortcuts for methods on the embedded struct if you have not redefined the method on your new struct. So, `jane.Species()` and `jane.Person.Species()` call the same method on the `Person` struct.
