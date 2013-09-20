@@ -20,4 +20,5 @@ func (w *Woman) ProperName() string {
 func main() {
   jane := &Woman { Person: &Person { Name: "Jane Smith" } }
   fmt.Println(jane.ProperName())
+  fmt.Println(jane.Person.ProperName())
 }
