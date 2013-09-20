@@ -4,9 +4,10 @@ A set of [Golang](http://golang.org) examples, starting at the most basic "Hello
 
 ## Examples
 
-- Hello World
-- Writing to a file
-- Simple web server
+- **Hello World**: A simple program that just outputs "Hello World"
+- **Writing to a file**: Takes the contents of one file and writes it to another using pure Go.
+- **Simple web server**: A simple web server that returns "hello world" when a certain path is visited, using pure Go.
+- **Image Processing**: 
 
 Coming soon:
 
