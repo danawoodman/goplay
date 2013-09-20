@@ -26,6 +26,7 @@ func (p *Person) ProperName() string {
   return p.Name
 }
 
+// Add another method to the `Person` struct.
 func (p *Person) Species() string {
   return "Homo sapien"
 }
@@ -35,12 +36,15 @@ func (p *Person) Species() string {
 We can then compose a new struct with the `Person` struct attached (or embedded) into it:
 
 ```go
-// This embeds the `Person` struct into the `Woman` struct so you have access to the `Person` structs methods and properties.
+// This embeds the `Person` struct into the `Woman` struct so you have 
+// access to the `Person` structs methods and properties.
 type Woman struct {
   *Person
 }
 
-// The attaches a method `ProperName` onto the `Woman` struct, but does not override the method in the `Person` struct. Instead, you have access to the original `Person` struct and can call it's properties and methods.
+// The attaches a method `ProperName` onto the `Woman` struct, but does not 
+// override the method in the `Person` struct. Instead, you have access to 
+// the original `Person` struct and can call it's properties and methods.
 func (w *Woman) ProperName() string {
   return "Mrs. " + w.Person.ProperName()
 }
