@@ -16,3 +16,7 @@ This will start the webserver and keep it running. Now, open up your web browser
 ## Next
 
 Learn more about the [Go net/http library here](http://golang.org/pkg/net/http/) or check out [Gorilla](http://www.gorillatoolkit.org/).
+
+## Credits
+
+This example comes straight from the Golang example page, with slight modification.
