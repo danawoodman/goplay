@@ -8,9 +8,16 @@ A set of [Golang](http://golang.org) examples, starting at the most basic "Hello
 - Writing to a file
 - Simple web server
 
+Coming soon:
+
+- RESTful API
+- Getting data from an API
+- Daemon
+- Accessing a database
+
 ## Install Go
 
-If you're on a Mac and you use [Homebrew]() you can install go by running:
+If you're on a Mac and you use [Homebrew](http://brew.sh/) you can install go by running:
 
 ```bash
 brew install go
@@ -18,7 +25,7 @@ brew install go
 
 ... and you're ready!
 
-If you don't have [Homebrew](http://brew.sh/), you can install [go in many other ways](http://golang.org/doc/install).
+If you don't have Homebrew, you can install [go in many other ways](http://golang.org/doc/install).
 
 ## Running Examples
 
