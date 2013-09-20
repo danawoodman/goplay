@@ -5,11 +5,8 @@ A set of [Golang](http://golang.org) examples, starting at the most basic "Hello
 ## Examples
 
 - Hello World
-- RESTful API
 - Writing to a file
-- Getting data from an API
-- Daemon
-- Accessing a database
+- Simple web server
 
 ## Install Go
 
