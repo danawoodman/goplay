@@ -7,7 +7,7 @@ A set of [Golang](http://golang.org) examples, starting at the most basic "Hello
 - **Hello World**: A simple program that just outputs "Hello World"
 - **Writing to a file**: Takes the contents of one file and writes it to another using pure Go.
 - **Simple web server**: A simple web server that returns "hello world" when a certain path is visited, using pure Go.
-- **Image Processing**: 
+- **Image Analysis**: Create a color histogram of an image.
 
 Coming soon:
 
@@ -47,7 +47,9 @@ All the examples have a README file explaining what they do and how to run them.
 
 ## Credits
 
-Examples written by [Dana Woodman](http://danawoodman.com) of [Teleporter](http://teleporter.io).
+Some examples are taken, sometime in their entirety, from other sources and we'll do our best to link back to them.
+
+All other examples written by [Dana Woodman](http://danawoodman.com) of [Teleporter](http://teleporter.io).
 
 ## License
 
