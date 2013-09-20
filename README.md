@@ -8,6 +8,7 @@ A set of [Golang](http://golang.org) examples, starting at the most basic "Hello
 - **Writing to a file**: Takes the contents of one file and writes it to another using pure Go.
 - **Simple web server**: A simple web server that returns "hello world" when a certain path is visited, using pure Go.
 - **Image Analysis**: Create a color histogram of an image.
+- **Object Composition**: In Go, you cannot inherit or sub-class; instead you compose structs.
 
 Coming soon:
 
@@ -29,7 +30,7 @@ brew install go
 If you don't have Homebrew, you can install [go in many other ways](http://golang.org/doc/install).
 
 ## Running Examples
-
+g
 Most examples can be run by just running `go build` and executing the generated binary file:
 
 ```bash
